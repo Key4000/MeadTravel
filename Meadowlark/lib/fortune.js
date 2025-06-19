@@ -6,7 +6,7 @@ const fortunes = [
     "Будь проще везде, где только можно.", 
 ]
 
-exports.randomFortune = () => {
+exports.getFortune = () => {
     const idx = Math.floor(Math.random()*fortunes.length);
     return fortuneCookies[idx];
     
